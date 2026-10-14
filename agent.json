@@ -1,0 +1,34 @@
+{
+  "$schema": "http://desirecore/schemas/agent-seed.json",
+  "id": "bf6cb1e5-575e-4d80-8ea3-0025f9086ae5",
+  "name": "通用助手",
+  "version": "1.0.0",
+  "requiredClientVersion": "10.0.181",
+  "description": "帮助用户完成问答、检索、写作、分析、编程和各类通用任务。",
+  "author": "DesireCore Team",
+  "repository": {
+    "url": "https://github.com/desirecore/agent-general-assistant.git",
+    "branch": "main"
+  },
+  "avatar": {
+    "char": "助",
+    "color": "blue"
+  },
+  "session_mode": {
+    "manual": true
+  },
+  "llm": {
+    "routingMode": "smart",
+    "smart": {
+      "tier": "flagship"
+    }
+  },
+  "default_enabled": {
+    "skills": [],
+    "tools": []
+  },
+  "mcp_servers": {},
+  "accepts_handoff": true,
+  "accepts_messages": true,
+  "max_concurrent_sessions": 3
+}
