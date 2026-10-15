@@ -5,6 +5,7 @@ The second built-in DesireCore Agent, named **通用助手** in the client. It h
 ## Defaults
 
 - Stable client directory: `general-assistant`.
+- A transparent portrait is bundled at `assets/avatar.webp`; `avatar.image.path` references it, with the character and color retained as the fallback.
 - Manual multi-session mode is enabled (`session_mode.manual: true`); users can change it in the existing session settings.
 - Smart routing uses the flagship tier without pinning a Provider or model.
 - This Agent has its own identity and can collaborate or join teams. DesireCore retains the central system role.
