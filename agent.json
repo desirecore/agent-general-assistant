@@ -2,7 +2,7 @@
   "$schema": "http://desirecore/schemas/agent-seed.json",
   "id": "bf6cb1e5-575e-4d80-8ea3-0025f9086ae5",
   "name": "通用助手",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "requiredClientVersion": "10.0.181",
   "description": "帮助用户完成问答、检索、写作、分析、编程和各类通用任务。",
   "author": "DesireCore Team",
@@ -12,7 +12,11 @@
   },
   "avatar": {
     "char": "助",
-    "color": "blue"
+    "color": "blue",
+    "image": {
+      "path": "assets/avatar.webp"
+    },
+    "generationPolicy": "manual"
   },
   "session_mode": {
     "manual": true
